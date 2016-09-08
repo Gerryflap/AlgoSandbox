@@ -1,0 +1,42 @@
+.block {
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    color: whitesmoke;
+    background: black;
+    box-shadow: 5px 5px 2px #333;
+    border: 1px solid #aaaaaa;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.codeStatement {
+    background: #331100;
+}
+.codeContainer {
+
+}
+
+
+
+
+.newElement {
+    text-align: center;
+    background: #003300;
+}
+
+#wasteBin {
+    background: #660000;
+}
+
+#program {
+    width: 50%;
+}
+#toolBox {
+    width: 50%;
+}
+
+#content {
+    display: flex;
+}
+

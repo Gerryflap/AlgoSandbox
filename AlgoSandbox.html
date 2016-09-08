@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Drag n drop test</title>
+    <script src="AlgoSandbox.js"></script>
+    <link rel="stylesheet" type="text/css" href="AlgoSandbox.css">
+</head>
+<body>
+
+
+
+    <h1>
+        Welcome to AlgoSandbox
+    </h1>
+    <p>
+        AlgoSandbox is a drag and drop interface for designing simple algorithms.
+    </p>
+    <div id="content">
+        <div id="program">
+            <h2>Program:</h2>
+
+            <div id="div0" class="newElement block" ondrop="dropToProgram(event)" ondragover="allowDrop(event)">+</div>
+            <br>
+
+
+        </div>
+
+        <div id="toolBox">
+            <h2>Toolbox:</h2>
+            <div id="div1" class="codeStatement block" draggable="true" ondragstart="drag(event)">Assign </div>
+            <div id="div2" class="codeStatement block" draggable="true" ondragstart="drag(event)">If </div>
+            <div id="wasteBin" class="block" ondrop="destroyBlock(event)" ondragover="allowDrop(event)">Wastebin</div>
+
+
+        </div>
+    </div>
+
+
+    <div id="footer">
+        <p>
+            You can follow the development on github: SOON
+        </p>
+    </div>
+</body>
+</html>
